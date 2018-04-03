@@ -5,17 +5,16 @@ $(document).ready(function () {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
-            $('nav').removeClass('sticky');
+            $('nav').removeClass('sticky')
         }
     });
 
 
-    /* scroll on buttons */
 
+    /* scroll on buttons */
     $('.js--scroll-to-plans').click(function () {
         $('html, body').animate({
-            scrollTop: $('.js--section-plans').offset().top
-        }, 1000);
-    })
-
-});
+            scrollTop: $('js--section-plans').offset().top
+        }, 1000)
+    });
+})

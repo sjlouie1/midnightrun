@@ -286,21 +286,20 @@ header {
 .meals-showcase {
     width: 100%;
     list-style: none;
-    display: inline-block;
-    margin-bottom: 0;
+    display: flex;
+    margin-top: 0;
 }
 .meals-showcase li {
     float: left;
     width: 25%;
-    height: auto;
     max-width: 100%;
-    height: auto;
     overflow: hidden;
     background-color: black;
 }
 .meals-showcase img {
     opacity: .7;
     width: 100%;
+    margin-bottom: 0;
     -webkit-transform: scale(1.15);
     transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.8s;
@@ -312,8 +311,8 @@ header {
 }
 .meals-showcase img:hover {
     opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* -----------HOW IT WORKS -------------- */
