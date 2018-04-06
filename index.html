@@ -9,20 +9,21 @@
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
 
     <title>Midnight Run</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="resources/favicons/favicon-16x16.png">
-    <link rel="manifest" href="resources/favicons/site.webmanifest">
-    <link rel="mask-icon" href="resources/favicons/safari-pinned-tab.svg">
-    <link rel="shortcut icon" href="resources/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/favicon-16x16.png">
+    <link rel="manifest" href="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/site.webmanifest">
+    <link rel="mask-icon" href="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="resources/favicons/browserconfig.xml">
+    <meta name="msapplication-config" content="C:\Users\sjlouie\Documents\DevProjects\Midnight_Run\resources\favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -35,21 +36,20 @@
             <div class="row">
                 <img src="resources/images/logo%20white.png" alt="midnight run logo" class="logo">
                 <img src="resources/images/logo%20black.png" alt="midnight run logo" class="logo-black">
-                <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
-
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#steps">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#plans">Sign up</a></li>
                 </ul>
-
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
 
             </div>
         </nav>
 
 
         <div class="hero-textbox">
-            <h1>Late night snacking just got a whole lot better.</h1>
+            <h1>Late night eating just got a whole lot better.</h1>
             <a class="btn btn-full js--scroll-to-plans" href="#">I'm hungry</a>
             <a class="btn btn-ghost js--scroll-to-start" href="#">Show me more</a>
 
@@ -58,21 +58,21 @@
 
     </header>
 
-    <section class="section-features js--section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
-            <h2>Get food fast &mdash; not fast food</h2>
+            <h2>Eat at night and eat right</h2>
             <p class="long-text">
-                Good evening, we are Midnight Run, your premium nighttime food delivery service. We know you're tired of chosing between gas station food or fast food restaurants when your hunger cravings strike at night. That's why we got you covered with plenty of healthy and delicious home cooked meals!
+                Good evening, we are Midnight Run, your premium nighttime food delivery service. We know you're tired of choosing between unhealthy gas station food or fast food restaurants when your hunger cravings strike at night. That's why we got you covered with plenty of healthy and delicious home cooked meals!
             </p>
         </div>
 
 
-        <div class="row">
+        <div class="row js--wp-1">
             <div class="col span-1-of-3 box">
                 <i class="ion-ios-loop-strong icon-big"></i>
                 <h3>9PM to 7AM, 365 days/year</h3>
                 <p>
-                    Never cook again! We really mean it. We got you covered all through the night. Our subscription plans include up to 365 days/year coverage.
+                    Never settle for unhealthy food again! We got you covered all through the night. Our subscription plans include up to 365 days/year coverage.
                 </p>
             </div>
 
@@ -99,8 +99,9 @@
 
 
     <section class="section-meals">
-
+        <h2>Featured meals</h2>
         <ul class="meals-showcase">
+
             <li>
                 <figure class="meal-photo">
                     <img src="resources/images/meals/asparagus-steak-veal-steak-veal-361184-min.jpeg" alt="asparagus steak veal meal">
@@ -156,13 +157,13 @@
     </section>
 
 
-    <section class="section-steps">
+    <section class="section-steps" id="steps">
         <div class="row">
             <h2>How it works</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-2 steps-box">
-                <img src="resources/images/326743-pdp-iphoneX-s2-1@2x.jpg" alt="midnight run app on phone" class="app-screen">
+                <img src="resources/images/app.png" alt="midnight run app on phone" class="app-screen js--wp-2">
             </div>
 
             <div class="span-2-of-2">
@@ -173,7 +174,7 @@
 
                 <div class="steps">
                     <div>2</div>
-                    <p>Order your meal by using our mobile app or website. You can even call us at (960)356-3333 </p>
+                    <p>Order your meal by using our mobile app or website. </p>
                 </div>
 
                 <div class="steps">
@@ -190,18 +191,52 @@
     </section>
 
 
-    <section class="section-cities">
+
+    <section class="section-testimonials">
+        <div class="row">
+            <h2>Our customers love us</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <blockquote>
+                    I work the night shift and had to resort to unhealthy convenience store food when I got hungry since the grocery shops and restaurants were closed. But with Midnight Run, now I don't have to!
+                    <cite><img src="resources/images/customers/adult-beard-boy-220453.jpg" alt="customer-photo">Alberto Duncan</cite>
+                </blockquote>
+            </div>
+
+
+            <div class="col span-1-of-3">
+                <blockquote>
+                    I often come home late at night from work and want to eat, but since I'm not a good cook, I just end up making unhealthy microwave meals. However with Midnight Run, now I'm back on a healthy diet."
+                    <cite><img src="resources/images/customers/adult-business-businessman-50855.jpg" alt="customer-photo" >Carlos Santos</cite>
+                </blockquote>
+            </div>
+
+
+            <div class="col span-1-of-3">
+                <blockquote>
+                    I use to be overweight due to eating unhealthy snacks to satisfy my late night hunger pangs, but when I switched to Midnight Run, within months I shed some weight and feel much healthier.
+                    <cite><img src="resources/images/customers/beautiful-brunette-cute-774909.jpg" alt="customer-photo">Miriam Coolie</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>Cities we serve</h2>
         </div>
-        <div class="row">
+        <div class="row js--wp-3">
 
             <div id="cities">
 
                 <div class="col span-1-0f-4 box">
                     <h3>San Francisco</h3>
                     <div class="city-feature">
-                        <i class="ion-android-person  icon-small"></i> 1700+ happy night owls
+                        <i class="ion-android-person  icon-small"></i> 1000+ happy night owls
                     </div>
                     <div class="city-feature">
                         <i class="ion-ios-telephone icon-small"></i> (415) 777-2946
@@ -214,10 +249,10 @@
                 <div class="col span-1-0f-4 box">
                     <h3>Los Angeles</h3>
                     <div class="city-feature">
-                        <i class="ion-android-person  icon-small"></i> 2000+ happy night owls
+                        <i class="ion-android-person  icon-small"></i> 900+ happy night owls
                     </div>
                     <div class="city-feature">
-                        <i class="ion-ios-telephone  icon-small"></i> (213) 768-5544
+                        <i class="ion-ios-telephone  icon-small"></i> (213) 777-5544
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter  icon-small"></i> <a href="#">midnightrun_la</a>
@@ -227,10 +262,10 @@
                 <div class="col span-1-0f-4 box">
                     <h3>San Jose</h3>
                     <div class="city-feature">
-                        <i class="ion-android-person  icon-small"></i> 1000+ happy night owls
+                        <i class="ion-android-person  icon-small"></i> 500+ happy night owls
                     </div>
                     <div class="city-feature">
-                        <i class="ion-ios-telephone  icon-small"></i> (669) 228-8888
+                        <i class="ion-ios-telephone  icon-small"></i> (669) 777-8888
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter  icon-small"></i> <a href="#">midnightrun_sj</a>
@@ -240,10 +275,10 @@
                 <div class="col span-1-0f-4 box">
                     <h3>Sacramento</h3>
                     <div class="city-feature">
-                        <i class="ion-android-person  icon-small"></i> 1000+ happy night owls
+                        <i class="ion-android-person  icon-small"></i> 700+ happy night owls
                     </div>
                     <div class="city-feature">
-                        <i class="ion-ios-telephone  icon-small"></i> (916) 333-4594
+                        <i class="ion-ios-telephone  icon-small"></i> (916) 777-4594
                     </div>
                     <div class="city-feature">
                         <i class="ion-social-twitter  icon-small"></i> <a href="#">midnightrun_sa</a>
@@ -253,45 +288,17 @@
         </div>
     </section>
 
-    <section class="section-testimonials">
-        <div class="row">
-            <h2>Our customers can't live without us</h2>
-        </div>
-        <div class="row">
-            <div class="col span-1-of-3">
-                <blockquote>
-                    This is a filler text! I love Midnight Run so much!
-                    <cite><img src="resources/images/pexels-photo-249618.jpeg" alt="customer-photo">Alberto Duncan</cite>
-                </blockquote>
-            </div>
-
-
-            <div class="col span-1-of-3">
-                <blockquote>
-                    This is a filler text! I love Midnight Run so much!
-                    <cite><img src="resources/images/pexels-photo-249618.jpeg" alt="customer-photo" >Alberto Duncan</cite>
-                </blockquote>
-            </div>
-
-
-            <div class="col span-1-of-3">
-                <blockquote>
-                    This is a filler text! I love Midnight Run so much!
-                    <cite><img src="resources/images/pexels-photo-249618.jpeg" alt="customer-photo">Alberto Duncan</cite>
-                </blockquote>
-            </div>
-        </div>
-    </section>
 
 
 
-    <section class="section-plans js--section-plans">
+
+    <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy tonight</h2>
         </div>
         <div class="row">
             <div class="col span-1-of-3">
-                <div class="plan-box">
+                <div class="plan-box js--wp-4">
                     <div class="plan-box-top">
                         <h3>Premium</h3>
                         <p class="plan-price">$399<span>/month</span></p>
@@ -382,8 +389,8 @@
                     </div>
                     <div class="col span-2-of-3">
                         <select name="find-us" id="find-us">
-                            <option value="friends selected">Friends</option>
                             <option value="search">Search engine</option>
+                            <option value="friends selected">Friends</option>
                             <option value="ad">Advertisement</option>
                             <option value="other">Other</option>
                         </select>
@@ -449,9 +456,11 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-    <script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <!--allows us to style in older browsers-->
     <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+    <!--allows us to use pseudo classes in IE 6 7 8 -->
     <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/scripts.js"></script>
 

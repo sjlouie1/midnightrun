@@ -64,8 +64,45 @@
             .col {
                 width: 100%;
             }
-            .main-nav {
+            /*  .main-nav {
                 display: none;
+            } */
+            .mobile-nav-icon {
+                display: inline-block;
+            }
+            .main-nav {
+                float: left;
+                margin-top: 35px;
+                margin-left: 25px;
+                display: none;
+            }
+            .main-nav li {
+                display: block;
+            }
+            .main-nav li a:link,
+            .main-nav li a:visited {
+                display: block;
+                border: 0;
+                padding: 5px 0;
+                font-size: 100%;
+            }
+            .sticky {
+                height: 9.2%;
+            }
+            .sticky .main-nav {
+                margin-top: 10px;
+            }
+            .sticky .main-nav li a:link,
+            .sticky .main-nav li a:visited {
+                padding: 10px 0px;
+                -webkit-transition: border-bottom 0.3s;
+                transition: border-bottom 0.3s;
+            }
+            .sticky .mobile-nav-icon i {
+                color: rebeccapurple;
+            }
+            .sticky .mobile-nav-icon {
+                margin-top: 15px;
             }
             .long-text {
                 width: 100%;
@@ -90,7 +127,7 @@
                 margin-bottom: 40px;
             }
             .app-screen {
-                width: 30%;
+                width: 80%;
             }
             .plan-box div,
             col {
@@ -111,6 +148,19 @@
             .section-features {
                 text-align: center
             }
+            .section-steps {
+                text-align: center;
+            }
+            .btn-app img {
+                margin: auto 0;
+            }
+            blockquote {
+                text-align: center;
+            }
+            cite img {
+                width: 50px;
+                border: .5px solid;
+            }
             .contact-form {
                 width: 100%;
             }
@@ -126,5 +176,18 @@
             }
             .section-plans h2 {
                 margin-top: 20px;
+            }
+            .footer-nav {
+                margin: auto 0;
+            }
+            .footer-nav {
+                text-align: center;
+                float: none;
+                margin-bottom: 18px;
+            }
+            .social-links {
+                text-align: center;
+                float: none;
+                ;
             }
         }
