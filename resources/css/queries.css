@@ -151,6 +151,9 @@
             .section-features {
                 text-align: center
             }
+            .section-features .long-text {
+                margin-bottom: 0px;
+            }
             .section-steps {
                 text-align: center;
             }
@@ -192,5 +195,8 @@
                 text-align: center;
                 float: none;
                 ;
+            }
+            .section-form .col {
+                margin-top: 10px;
             }
         }
